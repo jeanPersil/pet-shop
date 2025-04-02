@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
 }
 .cabecalho {
   grid-area: cabecalho;
@@ -12,6 +12,7 @@
   background-color: rgba(255, 208, 0);
   gap: 20px;
   border-bottom: solid 4px orange;
+  width: 100vw;
 }
 
 .logo {
@@ -46,6 +47,7 @@
 
 .conteudo {
   grid-area: conteudo;
+  width: 100vw;
 }
 
 .bem-vindo {
@@ -99,7 +101,7 @@
   background-color: rgb(249, 243, 235);
   height: 300px;
   border-radius: 10px;
-  width: 193vh;
+  width: 100vw;
 }
 .rodape {
   grid-area: rodape;
@@ -115,7 +117,7 @@
   color: rgb(65, 63, 63);
 }
 
-a{
+a {
   text-decoration: none;
   color: white;
 }
@@ -146,3 +148,4 @@ body {
     "conteudo"
     "rodape";
 }
+
